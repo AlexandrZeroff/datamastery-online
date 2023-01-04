@@ -1,0 +1,169 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html,
+body {
+  margin: 0;
+  font-family: 'Antonio', 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI',
+    'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans',
+    'Helvetica Neue', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+h1 {
+  @apply text-[35px] sm:text-[54px] md:text-[64px] lg:text-[75px] font-bold leading-snug;
+}
+
+h2 {
+  @apply text-[34px] font-normal leading-snug;
+}
+
+h3 {
+  @apply text-[28px] md:text-[35px] lg:text-[41px] font-normal leading-tight;
+}
+
+h4 {
+  @apply text-[22px] font-normal leading-7;
+}
+
+h5 {
+  @apply text-lg font-normal leading-6;
+}
+
+p {
+  font-family: 'Inter', sans-serif;
+}
+
+.menu-nav {
+  @apply hidden md:flex;
+}
+
+.menu-nav div a {
+  @apply text-lg font-normal leading-6 text-primary ml-1;
+}
+
+.menu-burger div a {
+  @apply text-lg font-normal leading-6 text-primary ml-1;
+}
+
+.menu-nav div img{
+  @apply ml-8 xl:ml-12;
+}
+
+.menu-burger div img{
+  @apply ml-8 xl:ml-12;
+}
+
+.header-container {
+  @apply px-4 sm:px-8 md:px-16 flex flex-col items-center;
+}
+
+.bg-header {
+  background: linear-gradient(
+    180deg,
+    rgba(58, 193, 46, 0.1) 0%,
+    rgba(58, 193, 46, 0) 100%
+  );
+}
+
+.header-fullscreen{
+  height: calc(100vh - 100px);
+}
+
+.poster-img {
+  filter: drop-shadow(0px 29px 12px rgba(0, 169, 71, 0.01))
+    drop-shadow(0px 16px 10px rgba(0, 169, 71, 0.02))
+    drop-shadow(0px 7px 7px rgba(0, 169, 71, 0.03))
+    drop-shadow(0px 2px 4px rgba(0, 169, 71, 0.01));
+  border-radius: 15px;
+}
+
+.bg-benefits {
+  @apply bg-gradient-to-b;
+  background: linear-gradient(
+    180deg,
+    rgba(58, 193, 46, 0) 0%,
+    rgba(58, 193, 46, 0.2) 50%,
+    rgba(58, 193, 46, 0.06) 100%
+  );
+}
+
+.benefit p {
+  @apply text-sm leading-[21px] font-normal text-[#003B33] pt-4;
+}
+
+.benefit .poster-img{
+  @apply lg:w-1/2;
+}
+
+.benefit article{
+  @apply lg:w-1/2 lg:px-16;
+}
+
+.bg-features {
+  @apply bg-gradient-to-b;
+  background: linear-gradient(
+    180deg,
+    rgba(58, 193, 46, 0.06) 0%,
+    rgba(58, 193, 46, 0) 100%
+  );
+}
+
+.features {
+  background: #ffffff;
+  box-shadow: 0px 29px 12px rgba(0, 169, 71, 0.01),
+    0px 16px 10px rgba(0, 169, 71, 0.02), 0px 7px 7px rgba(0, 169, 71, 0.03),
+    0px 2px 4px rgba(0, 169, 71, 0.01);
+  border-radius: 15px;
+  padding: 0px 20px;
+  margin-top: 3rem;
+  width: 100%;
+}
+
+.feature {
+  @apply flex items-center my-12;
+}
+
+.feature h5 {
+  margin-left: 12px;
+}
+
+.form-block {
+  border: 1px solid rgba(0, 116, 115, 0.13);
+  border-radius: 10px;
+  padding: 2rem 1rem;
+  @apply md:px-16 lg:px-8 xl:px-16;
+}
+
+.userform input {
+  background: #ffffff;
+  border: 1px solid rgba(0, 116, 115, 0.1);
+  border-radius: 3px;
+  font-family: 'Inter', sans-serif;
+  height: 60px;
+  margin: 0.5rem 0;
+  @apply text-sm px-4 text-black;
+}
+
+.submit-btn {
+  @apply w-full text-white text-2xl py-4 mt-2;
+  background: linear-gradient(180deg, #00a947 0%, #007374 100%);
+  border-radius: 3px;
+}
+
+.error-span{
+  font-family: 'Inter', sans-serif;
+  @apply text-red-500;
+}
+
+.success-span{
+  font-family: 'Inter', sans-serif;
+  @apply text-base text-salad;
+}
+
+.footer-info p{
+  font-family: 'Inter', sans-serif;
+  @apply text-xs leading-6 font-normal text-[#838383] pt-1;
+}
