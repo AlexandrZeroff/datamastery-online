@@ -11,7 +11,7 @@ const Header = () => {
       <div className="header-container bg-header relative overflow-hidden pb-16 over">
         <div className="header-fullscreen flex flex-col items-center">
           <h1 className="text-primary text-center pt-32">
-            Complete solution to manage and monitor mining operations
+            Complete solution to manage and monitor all the renders
           </h1>
           <h3 className="text-salad text-center pt-8">
             The most functional render management approach
