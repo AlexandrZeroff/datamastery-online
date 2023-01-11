@@ -44,17 +44,12 @@ const Footer = () => {
               Limassol, Cyprus
             </p>
             <div className="h-6"></div>
-            <p>J.S. SPORTAITMENT CYPRUS LTD</p>
-            <p>
-              Emmanouil Roidi, 10-12 2nd floor Agla Zoni, 3031, Limassol, Cyprus
-            </p>
             <a
               href="https://drive.google.com/file/d/1uXEzUuqCgS7cuWQHS09_GCGU3YzFFidc/view?usp=sharing"
               target="_blank"
             >
               <p>Terms and conditions</p>
             </a>
-            <div className="h-6"></div>
             <a
               href="https://drive.google.com/file/d/1wg1zxoMqpdQhNaOu3fcOpWQGYkeG205w/view?usp=sharing"
               target="_blank"
