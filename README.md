@@ -7,6 +7,8 @@ Data mastery provides you with a user-friendly Renderfarm-Manager. Choose betwee
 Website was created for JMIND Systems Ltd, as a product page for their new product named Datamastery.\
 ReactJS was chosen because of its optimized, easy and fast operation. Also Tailwind CSS was used to speed up development and reduce the code size. Here`s full app code except some ENV variables (for security reasons).
 
+Data sending from form at the website bottom is implemented using a [emailjs-com](https://www.emailjs.com/) library. This gives an opportunity to collect user data and send it via email to website administrator.
+
 ## In the project directory, you can run
 
 ### `npm start`
