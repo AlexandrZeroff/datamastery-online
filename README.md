@@ -1,10 +1,10 @@
-# Get started with Streamzenn
+# DataMastery Project
 
-Engage social shoppers with influencers, grow brand loyalty, and drive revenue with livestream events using the most flexible solution on the market.
+Data mastery provides you with a user-friendly Renderfarm-Manager. Choose between the various features and start managing your renders in no time!
 
 ## Project notes
 
-Website was created for JMIND Systems Ltd, as a product page for their Streamzenn service.\
+Website was created for JMIND Systems Ltd, as a product page for their new product named Datamastery.\
 ReactJS was chosen because of its optimized, easy and fast operation. Also Tailwind CSS was used to speed up development and reduce the code size. Here`s full app code except some ENV variables (for security reasons).
 
 ## In the project directory, you can run
